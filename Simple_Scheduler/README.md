@@ -1,6 +1,6 @@
 # Program #2
 
-Name:Sam Blair
+Name:Alice Blair
 
 How to compile:use the makefile use the commands:
                                                   make all
