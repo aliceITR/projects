@@ -12,7 +12,7 @@ _If there is any mention of sblair3 in any of my code, it is because sblair3 was
 - Maze
   - This is an application that builds a maze to certain specifications and finds a route through it. I worked on this with @Tuttuhl 
 - Merkle_Tree_Code
-  - This is a program that implments a merkle tree simulating voter registration. I worked on this with @Tuttuhl @Oyedola and @sgoering
+  - This is a program that implments a merkle tree simulating voter registration. I worked on this with @Tuttuhl @Oyedola and @sgoering1
 - Mobile_Programs
   - This is directory of multiple small mobile programs I have developed for some of my classes. 
 - Simple_Linux_File_System
