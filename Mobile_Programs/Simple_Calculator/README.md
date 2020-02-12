@@ -1,9 +1,4 @@
-Program #3
-
-Name:Sam Blair
-Cosc  4730
-
-Description: Was run on api 28 samsung galsaxy s9
+# Simple_Calculator
 
 How to use:
 Type in first number
