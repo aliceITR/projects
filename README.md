@@ -8,7 +8,7 @@ _If there is any mention of sblair3 in any of my code, it is because sblair3 was
 **The projects currently included in this repository:**
 
 - Curry_Website
-  - This is a MVC website that I had built for one of my classes. It currently is not properly connecting to the Azure SQL database. But it can be run on a local machine. It requires users to login or Oauth with google, and then they can upload curry recipe information.
+  - This is a MVC website that I had built for one of my classes. Currently it is not properly connecting to the Azure SQL database. But it can be run on a local machine. It requires users to login or Oauth with google, and then they can upload curry recipe information.
 - Maze
   - This is an application that builds a maze to certain specifications and finds a route through it. I worked on this with @Tuttuhl 
 - Merkle_Tree_Code
