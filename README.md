@@ -1,6 +1,8 @@
 # Projects that I have worked on
 
-**This repository has multpile projects that I have worked on throughout my years at the University of Wyoming.**
+###This repository has multpile projects that I have worked on throughout my years at the University of Wyoming.
+
+**The projects currently included in this repository:**
 
 - Simple_Linux_File_System
   - This program was introduced as a way to understand how an file system works. Its main focus was on how does a file system store data and how can that data be accessed. 
