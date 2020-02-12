@@ -1,6 +1,8 @@
 # Curry MVC
 
+This is a MVC application using the .Net Framework. 
+<br>
 This is a website that looks at curry.
-To make it work if there is the roslyn error
+<br>
+If there is a Roslyn Error - Clean the Solution, Then Build
 
-Clean Then Build
