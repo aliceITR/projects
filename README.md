@@ -1,6 +1,6 @@
 # Projects that I have worked on
 
-######This repository has multpile projects that I have worked on throughout my years at the University of Wyoming.
+##This repository has multpile projects that I have worked on throughout my years at the University of Wyoming.
 
 **The projects currently included in this repository:**
 
