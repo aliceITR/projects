@@ -1,0 +1,103 @@
+﻿@model CurryMVCv3.Models.Curry
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Curry</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CurryType.CurryTypeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurryType.CurryTypeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CurryRecipeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurryRecipeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsVegitarian)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsVegitarian)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Origin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Origin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FeedsXPeople)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FeedsXPeople)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpectedCost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpectedCost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TimeToCook)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TimeToCook)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Color)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Color)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CurryType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurryType.CurryTypeName)
+        </dd>
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Categories)
+        </dt>
+
+        <dd>
+            @foreach (var categoryName in Model.Categories.Select(c => c.CategoryName).ToList())
+            {
+                <span>@categoryName, </span>
+            }
+        </dd>
+
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,48 @@
+﻿@model CurryMVCv3.Models.CurryTypes
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>CurryTypes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CurryTypeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurryTypeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastModified)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastModified)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastModifiedBy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastModifiedBy)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,96 @@
+﻿@model IEnumerable<CurryMVCv3.Models.Curry>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @using (Html.BeginForm("Index", "SearchByTypeViewModels"))
+    {
+
+        @Html.DropDownList("CurryTypeID", null, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div>
+            <input type="submit" value="Search" />
+        </div>
+
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CurryType.CurryTypeName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CurryRecipeName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsVegitarian)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Origin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FeedsXPeople)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExpectedCost)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TimeToCook)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Color)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.CurryType)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Categories)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.CurryType.CurryTypeName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CurryRecipeName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.IsVegitarian)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Origin)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.FeedsXPeople)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ExpectedCost)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.TimeToCook)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Color)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CurryTypeID)
+    </td>
+    <td>
+        @foreach (var categoryName in item.Categories.Select(c => c.CategoryName).ToList())
+        {
+            <span>@categoryName, </span>
+        }
+    </td>
+
+</tr>
+}
+
+</table>

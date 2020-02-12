@@ -1,0 +1,42 @@
+﻿@model CurryMVCv3.ViewModels.AssignCategoryViewModel
+
+@{
+    ViewBag.Title = "Add Categories";
+}
+
+<h2>Index</h2>
+
+<h3>Add Categories to @Model.CurryName</h3>
+
+@using (Html.BeginForm("Index", "AssignCategories"))
+{
+    @Html.HiddenFor(model => model.CurryId)
+    @Html.DropDownListFor(model => model.CategoryId, Model.Categories)
+    @Html.ValidationMessageFor(model => model.CategoryId)
+    <p>
+        <br />
+        <input type="submit" value="Save" />
+    </p>
+}
+
+
+
+<table>
+
+    @foreach (var item in Model.AssociatedCategories)
+    {
+        <tr>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new { CategoryId = item.ID, CurryId = Model.CurryId })
+            </td>
+            <td>&nbsp;&nbsp;</td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+        </tr>
+    }
+
+</table>
+
+<br />
+@Html.ActionLink("Back to List", "Index", "Curries")
