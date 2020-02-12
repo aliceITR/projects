@@ -1,10 +1,5 @@
-# Program # 1
-Name:  Sam Blair
-Cosc 4735
+# Country_List_RecylerView_With_NavView
 
-Description:  I ran it on a Samsung Galaxy s9 and built it for android 10.
-
-Anything that doesn't work:
-Everything works
+Very simple to run, open it and look at the various countries. If you tap on one a snackbar pops up and says the name of the selected country.
 
 
