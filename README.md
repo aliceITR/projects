@@ -20,8 +20,6 @@ _If there is any mention of sblair3 in any of my code, it is because sblair3 was
 - Simple_Scheduler
   - This is a program that mimics how an operating system dynamically schedules tasks on a single process system.
 
-
-<br><br>
 **Things that are currently not included in this repository:**
 - Software_Design_Of_A_Simple_Game
   - Unfortunately as of right now I am unable to acquire the code for this as my professor owns the copyright of the game.
