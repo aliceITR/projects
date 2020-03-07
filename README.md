@@ -17,8 +17,6 @@ _If there is any mention of sblair3 in any of my code, it is because sblair3 was
   - This is directory of multiple small mobile programs I have developed for some of my classes. 
 - Simple_Linux_File_System
   - This program was introduced as a way to understand how an file system works. Its main focus was on how does a file system store data and how can that data be accessed. I worked on this with @gbrown15
-- Simple_Scheduler
-  - This is a program that mimics how an operating system dynamically schedules tasks on a single process system.
 
 **Things that are currently not included in this repository:**
 - Software_Design_Of_A_Simple_Game
