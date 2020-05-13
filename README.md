@@ -17,5 +17,3 @@ _If there is any mention of sblair3 in any of my code, it is because sblair3 was
 **Things that are currently not included in this repository:**
 - Software_Design_Of_A_Simple_Game
   - Unfortunately as of right now I am unable to acquire the code for this as my professor owns the copyright of the game.
-- Study_Abroad_Mobile_App
-  - As this project is being made right now and this app is for an entity, I cannot release the code for it at this time. 
