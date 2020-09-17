@@ -1,6 +1,5 @@
-# Projects that I have worked on
+# This repository has multpile projects that I have worked on throughout my years at the University of Wyoming.
 
-### This repository has multpile projects that I have worked on throughout my years at the University of Wyoming.
 
 _If there is any mention of sblair3 in any of my code, it is because sblair3 was my github account which was connected to my school account which will cease to exist. Thus, I have taken my programs from that account and put them here._
 <br>
