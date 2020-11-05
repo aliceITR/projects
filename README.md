@@ -11,7 +11,6 @@ _If there is any mention of sblair3 in any of my code, it is because sblair3 was
 - Merkle_Tree_Code
   - This is a program that implments a merkle tree simulating voter registration. I worked on this with @Tuttuhl @Oyedola and @sgoering1
 - Simple_Linux_File_System
-  - This program was introduced as a way to understand how an file system works. Its main focus was on how does a file system store data and how can that data be accessed. I worked on this with @gbrown15
 
 **Things that are currently not included in this repository:**
 - Software_Design_Of_A_Simple_Game
